@@ -1,3 +1,3 @@
 # GuanyaShi.github.io
 
-Credit to http://bailiu.me/
+Credit to https://jonbarron.info/ and http://bailiu.me/
