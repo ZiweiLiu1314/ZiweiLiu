@@ -140,10 +140,10 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="width:30%;vertical-align:middle">
               <img src='neural_lander.png' width=100%>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="width:70%;vertical-align:middle">
               <p>
                 <a href="https://arxiv.org/abs/1811.08027">
                   <papertitle>Neural Lander: Stable Drone Landing Control using Learned Dynamics</papertitle>
@@ -163,21 +163,59 @@
           </tr>
 
           <tr>
-            <td style="width:25%;vertical-align:middle">
-              <img src='meta_learning.png' width='100%'>
+            <td style="width:30%;vertical-align:middle">
+              <img src='neural_swarm.png' width='100%'>
             </td>
-            <td style="width:75%;vertical-align:middle">
+            <td style="width:70%;vertical-align:middle">
               <p>
                 <a href="http://iopscience.iop.org/article/10.1088/1361-6463/aac0a5/meta">
-                  <papertitle>How to dip nectar: optimal time apportionment in natural viscous fluid transport</papertitle>
+                  <papertitle>Neural-Swarm: Decentralized Close-Proximity Multirotor Control Using Learned Interactions</papertitle>
                 </a>
                 <br>
-                <a href="https://scholar.google.com/citations?user=IIYWr00AAAAJ&hl=zh-CN">Jianing Wu</a>, <strong>Guanya Shi</strong>, <a href="https://www.linkedin.com/in/evan-yiwei-zhao-18584a105/">Yiwei Zhao</a>, <a href="https://scholar.google.com.hk/citations?user=DO7hp4AAAAAJ&hl=en">Shaoze Yan</a>
+                <strong>Guanya Shi</strong>, <a href="https://scholar.google.com/citations?user=XUQcbFAAAAAJ&hl=en">Wolfgang H \"onig</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>
                 <br>
-                <em>Journal of Physics D: Applied Physics</em>, 2018
+                <em>Submitted to ICRA 2020</em>
                 <br>
                 <p></p>
-                <p>It is also my undergraduate work about biomechanics and bio-inspired robotics.</p>
+                <p>Close-proximity control is challenging due to the complex aerodynamic interaction effects between multirotors. We proposed Neural-Swarm, a  non-linear decentralized stable learning-based controller for  close-proximity flight of multirotor swarms. We employ deep sets to encode multi-vehicle interactions in an index-free manner, enabling better generalization to new formations andvarying number of vehicles.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:30%;vertical-align:middle">
+              <img src='robust_regression.png' width='100%'>
+            </td>
+            <td style="width:70%;vertical-align:middle">
+              <p>
+                <a href="https://arxiv.org/pdf/1906.05819">
+                  <papertitle>Robust Regression for Safe Exploration in Control</papertitle>
+                </a>
+                <br>
+                <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>
+                <br>
+                <em>arXiv preprint</em>
+                <br>
+                <p></p>
+                <p>We study the problem of safe learning and exploration in sequential control problems. A central challenge in this setting is how to quantify uncertainty in order to choose provably-safe actions that allow us to collect useful data and reduce uncertainty. We present a deep robust regression model that is trained to directly predict the uncertainty bounds for safe exploration. We then show how to integrate our robust regression approach with model-based control methods by learning a dynamic model with robustness bounds. We demonstrate empirically that our robust regression approach can outperform conventional Gaussian process (GP) based safe exploration.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:30%;vertical-align:middle">
+              <img src='meta_learning.png' width='100%'>
+            </td>
+            <td style="width:70%;vertical-align:middle">
+              <p>
+                <a href="http://iopscience.iop.org/article/10.1088/1361-6463/aac0a5/meta">
+                  <papertitle>Meta-Learning-Based Robust Adaptive Flight Control under Uncertain Wind Conditions</papertitle>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/mtoc12/">Michael O'Connell</a>, <strong>Guanya Shi</strong>, <a href="https://scholar.google.com/citations?user=1oJrl8IAAAAJ&hl=en">Xichen Shi</a>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>
+                <br>
+                <em>Submitted to ICRA 2020</em>
+                <br>
+                <p></p>
+                <p>Realtime model learning proves challenging for complex dynamical  systems. Deep learning has high representation power but is often too slow to update  onboard. On the other hand, adaptive control relies on simple linear parameter models can update as fast as the feedback control loop. We  propose an online composite adaptation method that treats outputs from a deep  neural network as a set of basis functions capable of representing different wind conditions. Meta-learning techniques are used to optimize the network such that the last layer is fast for adaptation. We validate our approach by  flying a drone in an open air wind tunnel under varying wind conditions.</p>
             </td>
           </tr>
           </table>
