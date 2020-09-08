@@ -192,7 +192,7 @@
                 <br>
                 <em>International Conference on Robotics and Automation (ICRA)</em>, 2020
                 <br>
-                Journal version submitted to <em>IEEE Transactions on Robotics</em>
+                Journal version submitted to <em>IEEE Transactions on Robotics (T-RO)</em>
                 <br>
                 [<a href="https://authors.library.caltech.edu/99548/2/ICRA_2020_Neural_Swarm.pdf">pdf</a>]
                 [<a href="https://youtu.be/v4j-9pH11Q8">video</a>]
@@ -231,7 +231,7 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="85%" valign="left">
-              <papertitle>Foundations in Online Learning and Control Theory</papertitle>
+              <papertitle>Foundations of Online Learning and Control Theory</papertitle>
               <hr>
             </td>
           </tr>
@@ -284,7 +284,7 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="85%" valign="left">
-              <papertitle>Neural-Lander Family: Learning Based Nonlinear Provably Stable Control in Multi-Agent and Changing Environments</papertitle>
+              <papertitle>Uncertainty Quantification and Safe Explorations in Dynamical Systems</papertitle>
               <hr>
             </td>
           </tr>
@@ -301,17 +301,38 @@
                   <papertitle>Robust Regression for Safe Exploration in Control</papertitle>
                 </a>
                 <br>
-                <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>
+                <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>
                 <br>
                 <em>Conference on Learning for Dynamics and Control (L4DC)</em>, 2020
                 <br>
                 [<a href="https://arxiv.org/pdf/1906.05819">arXiv</a>]
                 <br>
                 <p></p>
-                <p>We study the problem of safe learning and exploration in sequential control problems. A central challenge in this setting is how to quantify uncertainty in order to choose provably-safe actions that allow us to collect useful data and reduce uncertainty. We present a deep robust regression model that is trained to directly predict the uncertainty bounds for safe exploration. We then show how to integrate our robust regression approach with model-based control methods by learning a dynamic model with robustness bounds. We demonstrate empirically that our robust regression approach can outperform conventional Gaussian process (GP) based safe exploration.</p>
+                <p>We study the problem of safe learning and exploration in sequential control problems. The goal is to safely collect data samples from operating in an environment, in order to learn to achieve a challenging control goal (e.g., an agile maneuver close to a boundary). A central challenge in this setting is how to quantify uncertainty in order to choose provably-safe actions that allow us to collect informative data and reduce uncertainty, thereby achieving both improved controller safety and optimality. To address this challenge, we present a deep robust regression model that is trained to directly predict the uncertainty bounds for safe exploration. We derive generalization bounds for learning and connect them with safety and stability bounds in control. We demonstrate empirically that our robust regression approach can outperform the conventional Gaussian process (GP) based safe exploration in settings where it is difficult to specify a good GP prior.</p>
             </td>
           </tr>
 
+          <tr>
+            <td style="width:30%;vertical-align:middle">
+              <img src='info_snoc.png' width='100%'>
+            </td>
+            <td style="width:70%;vertical-align:middle">
+              <p>
+                <a href="https://arxiv.org/abs/2005.04374">
+                  <papertitle>Chance-Constrained Trajectory Optimization for Safe Exploration and Learning of Nonlinear Systems</papertitle>
+                </a>
+                <br>
+                <a href="https://yashwanthnakka.com/">Yashwanth Kumar Nakka</a>, <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>
+                <br>
+                submitted to <em>IEEE Robotics and Automation Letters (RA-L)</em>
+                <br>
+                [<a href="https://arxiv.org/abs/2005.04374">arXiv</a>]
+                [<a href="https://yashwanthnakka.com/blog/">blog</a>]
+                <br>
+                <p></p>
+                <p>Learning-based control algorithms require data collection with abundant supervision for training. Safe exploration algorithms ensure the safety of this data collection process even when only partial knowledge is available. We present a new approach for optimal motion planning with safe exploration that integrates chance-constrained stochastic optimal control with dynamics learning and feedback control. We derive an iterative convex optimization algorithm that solves an Information-cost Stochastic Nonlinear Optimal Control problem (Info-SNOC). The optimization objective encodes both optimal performance and exploration for learning, and the safety is incorporated as distributionally robust chance constraints. The dynamics are predicted from a robust regression model that is learned from data. The Info-SNOC algorithm is used to compute a sub-optimal pool of safe motion plans that aid in exploration for learning unknown residual dynamics under safety constraints. A stable feedback controller is used to execute the motion plan and collect data for model learning. We prove the safety of rollout from our exploration method and reduction in uncertainty over epochs, thereby guaranteeing the consistency of our learning method. We validate the effectiveness of Info-SNOC by designing and implementing a pool of safe trajectories for a planar robot. We demonstrate that our approach has higher success rate in ensuring safety when compared to a deterministic trajectory optimization approach.</p>
+            </td>
+          </tr>
           </table>
 
         <hr>
