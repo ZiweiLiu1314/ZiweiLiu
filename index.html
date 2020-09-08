@@ -139,14 +139,20 @@
           <tr>
             <td width="100%" valign="middle">
               <heading>Research and Selected Publications</heading>
-              <p>
-                I'm interested in machine learning, control theory and robotics.
-              </p>
             </td>
           </tr>
         </table>
 
+
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr>
+            <td width="100%" valign="middle">
+              <papertitle>Neural-Lander Family: Learned Based Nonlinear Provably Stable Control in Multi-Agent and Changing Environments</papertitle>
+              <hr>
+            </td>
+          </tr>
+
           <tr>
             <td style="width:30%;vertical-align:middle">
               <img src='neural_lander.png' width=100%>
@@ -174,27 +180,6 @@
 
           <tr>
             <td style="width:30%;vertical-align:middle">
-              <img src='optimistic_robd.png' width='100%'>
-            </td>
-            <td style="width:70%;vertical-align:middle">
-              <p>
-                <a href="https://drive.google.com/open?id=1B3G9OcLuAbenaPju3-ZPJSB1JxbBPCv-">
-                  <papertitle>Beyond No-Regret: Competitive Control via Online Optimization with Memory</papertitle>
-                </a>
-                <br>
-                <strong>Guanya Shi</strong>, <a href="https://scholar.google.com/citations?user=S1wSEggAAAAJ&hl=en">Yiheng Lin</a>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>, <a href="http://users.cms.caltech.edu/~adamw/index.html">Adam Wierman</a>
-                <br>
-                <em>arXiv preprint</em>
-                <br>
-                [<a href="https://arxiv.org/abs/2002.05318">arXiv</a>]
-                <br>
-                <p></p>
-                <p>This paper studies online control with adversarial disturbances using tools from online optimization with memory. Most work that bridges learning and control theory focuses on designing policies that are no-regret with respect to the best static linear controller in hindsight. However, the optimal offline controller can have orders-of-magnitude lower cost than the best linear controller. We instead focus on achieving constant competitive ratio compared to the offline optimal controller, which need not be linear or static. We provide a novel reduction from online control to online convex optimization with memory. We then design a new algorithm for online convex optimization with memory, Optimistic Regularized Online Balanced Descent, that has a constant, dimension-free competitive ratio. This result, in turn, leads to a new constant-competitive approach for online control.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="width:30%;vertical-align:middle">
               <img src='neural_swarm_new.png' width='100%'>
             </td>
             <td style="width:70%;vertical-align:middle">
@@ -212,27 +197,6 @@
                 <br>
                 <p></p>
                 <p>Close-proximity control is challenging due to the complex aerodynamic interaction effects between multirotors. We proposed Neural-Swarm, a  non-linear decentralized stable learning-based controller for  close-proximity flight of multirotor swarms. We employ deep sets to encode multi-vehicle interactions in an index-free manner, enabling better generalization to new formations andvarying number of vehicles.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="width:30%;vertical-align:middle">
-              <img src='robust_regression.png' width='100%'>
-            </td>
-            <td style="width:70%;vertical-align:middle">
-              <p>
-                <a href="https://arxiv.org/pdf/1906.05819">
-                  <papertitle>Robust Regression for Safe Exploration in Control</papertitle>
-                </a>
-                <br>
-                <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>
-                <br>
-                <em>Conference on Learning for Dynamics and Control (L4DC)</em>, 2020
-                <br>
-                [<a href="https://arxiv.org/pdf/1906.05819">arXiv</a>]
-                <br>
-                <p></p>
-                <p>We study the problem of safe learning and exploration in sequential control problems. A central challenge in this setting is how to quantify uncertainty in order to choose provably-safe actions that allow us to collect useful data and reduce uncertainty. We present a deep robust regression model that is trained to directly predict the uncertainty bounds for safe exploration. We then show how to integrate our robust regression approach with model-based control methods by learning a dynamic model with robustness bounds. We demonstrate empirically that our robust regression approach can outperform conventional Gaussian process (GP) based safe exploration.</p>
             </td>
           </tr>
 
@@ -258,6 +222,70 @@
                 <p>Realtime model learning proves challenging for complex dynamical  systems. Deep learning has high representation power but is often too slow to update  onboard. On the other hand, adaptive control relies on simple linear parameter models can update as fast as the feedback control loop. We  propose an online composite adaptation method that treats outputs from a deep  neural network as a set of basis functions capable of representing different wind conditions. Meta-learning techniques are used to optimize the network such that the last layer is fast for adaptation. We validate our approach by  flying a drone in an open air wind tunnel under varying wind conditions.</p>
             </td>
           </tr>
+        </table>
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr>
+            <td width="100%" valign="middle">
+              <papertitle>Neural-Lander Family: Learned Based Nonlinear Provably Stable Control in Multi-Agent and Changing Environments</papertitle>
+              <hr>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:30%;vertical-align:middle">
+              <img src='optimistic_robd.png' width='100%'>
+            </td>
+            <td style="width:70%;vertical-align:middle">
+              <p>
+                <a href="https://drive.google.com/open?id=1B3G9OcLuAbenaPju3-ZPJSB1JxbBPCv-">
+                  <papertitle>Beyond No-Regret: Competitive Control via Online Optimization with Memory</papertitle>
+                </a>
+                <br>
+                <strong>Guanya Shi</strong>, <a href="https://scholar.google.com/citations?user=S1wSEggAAAAJ&hl=en">Yiheng Lin</a>, <a href="http://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>, <a href="http://users.cms.caltech.edu/~adamw/index.html">Adam Wierman</a>
+                <br>
+                <em>arXiv preprint</em>
+                <br>
+                [<a href="https://arxiv.org/abs/2002.05318">arXiv</a>]
+                <br>
+                <p></p>
+                <p>This paper studies online control with adversarial disturbances using tools from online optimization with memory. Most work that bridges learning and control theory focuses on designing policies that are no-regret with respect to the best static linear controller in hindsight. However, the optimal offline controller can have orders-of-magnitude lower cost than the best linear controller. We instead focus on achieving constant competitive ratio compared to the offline optimal controller, which need not be linear or static. We provide a novel reduction from online control to online convex optimization with memory. We then design a new algorithm for online convex optimization with memory, Optimistic Regularized Online Balanced Descent, that has a constant, dimension-free competitive ratio. This result, in turn, leads to a new constant-competitive approach for online control.</p>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr>
+            <td width="100%" valign="middle">
+              <papertitle>Neural-Lander Family: Learned Based Nonlinear Provably Stable Control in Multi-Agent and Changing Environments</papertitle>
+              <hr>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:30%;vertical-align:middle">
+              <img src='robust_regression.png' width='100%'>
+            </td>
+            <td style="width:70%;vertical-align:middle">
+              <p>
+                <a href="https://arxiv.org/pdf/1906.05819">
+                  <papertitle>Robust Regression for Safe Exploration in Control</papertitle>
+                </a>
+                <br>
+                <a href="https://anqiliu-ai.github.io">Anqi Liu</a>, <strong>Guanya Shi</strong>, <a href="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>, <a href="http://www.yisongyue.com/">Yisong Yue</a>
+                <br>
+                <em>Conference on Learning for Dynamics and Control (L4DC)</em>, 2020
+                <br>
+                [<a href="https://arxiv.org/pdf/1906.05819">arXiv</a>]
+                <br>
+                <p></p>
+                <p>We study the problem of safe learning and exploration in sequential control problems. A central challenge in this setting is how to quantify uncertainty in order to choose provably-safe actions that allow us to collect useful data and reduce uncertainty. We present a deep robust regression model that is trained to directly predict the uncertainty bounds for safe exploration. We then show how to integrate our robust regression approach with model-based control methods by learning a dynamic model with robustness bounds. We demonstrate empirically that our robust regression approach can outperform conventional Gaussian process (GP) based safe exploration.</p>
+            </td>
+          </tr>
+
           </table>
 
         <hr>
@@ -308,7 +336,7 @@
           <tr>
             <td width="100%" valign="middle">
             <p>
-            <papertitle>Conference:</papertitle> ICML 2020, ICRA 2020, IROS 2020
+            <papertitle>Conference:</papertitle> ICML 2020, NeurIPS 2020, ICRA 2019-2020, IROS 2020, ICLR 2021
             </p>
             <p>
             <papertitle>Journal:</papertitle> IEEE Transaction on Automatic Control (TAC)
